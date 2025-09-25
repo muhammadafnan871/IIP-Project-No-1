@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font-family: Arial;
+}
+
+.mainBuildingWidth {
+    margin: auto;
+    width: 1170px;
+    text-decoration: none;
+}
+
+/* header section start */
+.header {
+    background-color: #343130;
+    font-size: 21px;
+    padding: 8px 8px 2px 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    color: white;
+}
+
+.headerLeft,
+.headerRight {
+    display: flex;
+    gap: 10px;
+}
+
+.headerLeft {
+    padding-left: 10px;
+}
+
+/* header section end */
+/* menu section start */
+.menu {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    text-transform: capitalize;
+    display: flex;
+    gap: 70px;
+    padding-top: 122px;
+    font-size: 22px;
+    padding-right: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.menuLeft img {
+    width: 170px;
+    height: 170px;
+}
+
+/* menu section end */
+/* leftside menu and right side image,course section start */
+.sideMenuAndImage {
+    background-color: white;
+    border: 10px solid #F1F0EF;
+    display: flex;
+    gap: 1%;
+}
+
+.sideMenuLeft {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.sideMenu ul {
+    list-style: none;
+}
+
+.sideMenu ul li {
+    background-color: #00A8EC;
+    margin: 8px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.sideMenu ul li a {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sideNews {
+    margin: 15px 8px 8px 8px;
+
+}
+
+.sideNews h3 {
+    background-color: #EF9C00;
+    padding: 16px;
+    border-radius: 25px 25px 0px 0px;
+    text-transform: capitalize;
+    color: white;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.newsHeadline {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.commonDisplayFlex {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.commonDisplayFlex img {
+    border-radius: 50px;
+    width: 160%;
+}
+
+.commonDisplayFlex h4 {
+    padding-left: 28px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.wsCubeImage img {
+    box-shadow: 0 18px 0 #F1F0EF;
+}
+
+.course h2 {
+    color: #00A8EC;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 39px;
+    width: 16%;
+    background-color: #F1F0EF;
+    padding: 10px;
+}
+
+.courseIconAndText {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: 30px;
+    justify-content: start;
+}
+
+.commonWidth {
+    flex-basis: 50%;
+    display: flex;
+    padding-left: 5px;
+    padding-top: 16px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.phpBackgroundColor img,
+.phpAdvanceBgColor img {
+    width: 40px;
+    height: 40px;
+}
+
+.phpTextColor h5 {
+    padding-left: 10px;
+    color: #E6611C;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.phpBackgroundColor {
+    background-color: #E6611C;
+    border-radius: 26px;
+    width: 40px;
+    height: 40px;
+}
+
+.seoTxtColor h5 {
+    padding-left: 10px;
+    color: #308A7C;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.seoBgColor {
+    background-color: #308A7C;
+    border-radius: 26px;
+    width: 40px;
+    height: 40px;
+}
+
+.graphicDesignTxtColor h5 {
+    padding-left: 10px;
+    color: #D60726;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.graphicDesignBgColor {
+    background-color: #D60726;
+    border-radius: 26px;
+    width: 40px;
+    height: 40px;
+}
+
+.pythonTxtColor h5 {
+    padding-left: 10px;
+    color: #7BB1E0;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.pythonBgColor {
+    background-color: #7BB1E0;
+    border-radius: 26px;
+    width: 40px;
+    height: 40px;
+}
+
+.androidAppTxtColor h5 {
+    padding-left: 10px;
+    color: #89C222;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.androidAppBgColor {
+    background-color: #89C222;
+    border-radius: 26px;
+    width: 40px;
+    height: 40px;
+}
+
+.wordpressTxtColor h5 {
+    padding-left: 10px;
+    color: #E6611C;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.wordpressBgColor {
+    background-color: #E6611C;
+    border-radius: 26px;
+    width: 40px;
+    height: 40px;
+}
+
+.phpAdvanceBgColor {
+    background-color: #5E5DA4;
+    border-radius: 26px;
+    width: 40px;
+    height: 40px;
+}
+
+.phpAdvanceTextColor h5 {
+    padding-left: 10px;
+    color: #5E5DA4;
+    letter-spacing: 1px;
+    font-size: 19px;
+    /* text-transform: capitalize; */
+}
+.paddingButtom{
+    padding-bottom: 20px;
+}
+/* leftside menu and right side image,course section start */
