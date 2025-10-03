@@ -1,0 +1,84 @@
+.contectMiddleSection {
+    flex-basis: 76%;
+}
+
+.contactPageHeading {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.contactPageHeading h2 a {
+    color: #00A8EC;
+}
+
+.phoneAndLocationContent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    /* gap: 30%; */
+}
+
+/* .phoneIconAndContent{
+    flex-basis: 50%;
+} */
+
+.phoneImg img {
+    /* padding-left: 120px; */
+    margin-left: 120px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.iipEmailAndWebsite {
+    text-align: center;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.iipEmailAndWebsite span {
+    font-weight: bold;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+
+.iipEmailAndWebsite a {
+    color: #00A8EC;
+}
+
+.locationIconAndContent {
+    flex-basis: 30%;
+}
+
+.locationImg img {
+    width: 50px;
+    box-sizing: border-box;
+    margin-left: 95px;
+    /* padding-left: 120px; */
+    padding-bottom: 10px;
+}
+
+.locationContent {
+    text-align: center;
+}
+
+.locationContent p {
+    word-spacing: 2px;
+}
+.mapHeadingAndContent{
+    padding: 20px 20px 100px 20px;
+    box-sizing: border-box;
+}
+.mapHeadingAndContent h2{
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.sideMenuAndImage{
+    border-bottom: 0px solid  !important;
+    box-sizing: border-box;
+}

@@ -1,0 +1,52 @@
+.sideMenuAndImage{
+    border-bottom: 0px solid  !important;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+
+}
+.enquirySection {
+    flex-basis: 76%;
+}
+
+.enquiryPageHeading {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.enquiryPageHeading h2 a {
+    color: #00A8EC;
+}
+
+.enquiryForm{
+    padding-left: 20px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.label{
+    font-weight: bold;
+}
+.gender{
+    display: flex;
+    text-transform: capitalize;
+    gap: 50px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.inputMale{
+margin-left: 25px;
+}
+.userInput{
+    height: 25px;
+}
+.name{
+    gap: 88px !important;
+}
+.conact{
+    gap: 88px !important;
+}
+.email{
+    gap: 93px !important;
+}

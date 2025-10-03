@@ -1,0 +1,46 @@
+/* about page css start */
+.sideMenuAndImage{
+    border-bottom: 0 !important;
+}
+.sideMenuLeft {
+    flex-basis: 22% !important;
+}
+
+.aboutPageSection {
+    flex-basis: 76%;
+}
+
+.aboutPageHeading {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.aboutPageHeading h1 ,.aboutPageHeading h2{
+    text-transform: capitalize;
+}
+.aboutPageHeading h2 a{
+    color: #00A8EC;
+}
+.aboutPageParagraph{
+    word-spacing: 2px;
+    font-size: 18px;
+    padding-top: 22px;
+    box-sizing: border-box;
+}
+.aboutPageParagraph p{
+    color: #070000;
+}
+.iiAdacemy{
+    font-weight: bold;
+    padding-top: 22px;
+    word-spacing: 2px;
+    margin-bottom: 120px;
+    box-sizing: border-box;
+}
+.iiAdacemy ol li{
+    font-weight: normal;
+    margin: 11px 20px;
+}
+/* about page css start */

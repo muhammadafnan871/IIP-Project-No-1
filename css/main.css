@@ -18,7 +18,9 @@ body {
     width: 1170px;
     text-decoration: none;
 }
-
+.active{
+    color: #00A8EC;
+}
 /* header section start */
 .header {
     background-color: #343130;
@@ -55,7 +57,7 @@ body {
     list-style: none;
     text-transform: capitalize;
     display: flex;
-    gap: 70px;
+    gap: 55px;
     padding-top: 122px;
     font-size: 22px;
     padding-right: 20px;
@@ -64,21 +66,23 @@ body {
 }
 
 .menuLeft img {
-    width: 170px;
-    height: 170px;
+    width: 225px;
+    padding-top: 30px;
+    padding-left: 50px;
+    box-sizing: border-box;
 }
 
 /* menu section end */
 /* leftside menu and right side image,course section start */
 .sideMenuAndImage {
     background-color: white;
-    border: 10px solid #F1F0EF;
+    border: 20px solid #F1F0EF;
     display: flex;
     gap: 1%;
 }
 
 .sideMenuLeft {
-    flex-basis: 50%;
+    flex-basis: 22%;
     text-align: center;
 }
 
@@ -138,7 +142,9 @@ body {
     font-weight: normal;
     text-transform: capitalize;
 }
-
+.wsCubeImageRight{
+    flex-basis: 70%;
+}
 .wsCubeImage img {
     box-shadow: 0 18px 0 #F1F0EF;
 }
@@ -275,7 +281,148 @@ body {
     font-size: 19px;
     /* text-transform: capitalize; */
 }
-.paddingButtom{
+
+.paddingButtom {
     padding-bottom: 20px;
 }
-/* leftside menu and right side image,course section start */
+
+/* leftside menu and right side image,course section end */
+/* how we work section start */
+
+.howWeWorkSection {
+    background-color: #F1F0EF;
+
+}
+
+.howWeWorkSection h2 {
+    color: #00A8EC;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.howWeWorkImageSelection {
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageBox2 {
+    width: 270px;
+    height: 220px;
+}
+
+.imageBox {
+    width: 270px;
+    height: 220px;
+    box-shadow: 15px 0 1px white;
+}
+
+.imageBoxColor1 {
+    background-color: #C96D8A;
+}
+
+.imageBoxColor2 {
+    background-color: #ED728D;
+}
+
+.imageBoxColor3 {
+    background-color: #F1A060;
+}
+
+.imageBoxColor4 {
+    background-color: #F6C567;
+}
+
+.imageSelectionFirstRow {
+    background-color: #ffff;
+}
+
+.imageSelectionFirstRowColumn1 {
+    background-image: url(../images/how/HOW-WE-WORK1.png);
+}
+
+.imageSelectionFirstRowColumn2 {
+    background-image: url(../images/how/HOW-WE-WORK2.png);
+}
+
+.imageSelectionFirstRowColumn3 {
+    background-image: url(../images/how/HOW-WE-WORK3.png);
+}
+
+.imageSelectionFirstRowColumn4 {
+    background-image: url(../images/how/HOW-WE-WORK4.png);
+}
+
+.imageSelectionFirstRowColumn1,
+.imageSelectionFirstRowColumn2,
+.imageSelectionFirstRowColumn3,
+.imageSelectionFirstRowColumn4 {
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 45px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* how we work section end */
+/* footer Selection start */
+.footerSelection {
+    background-color: #343130;
+    text-transform: capitalize;
+    color: #EFECEB;
+    display: flex;
+    justify-content: space-around;
+    padding: 33px 0 40px 0;
+    box-sizing: border-box;
+}
+.moreCourse{
+    color: #343130;
+}
+.footerSelection ul {
+    list-style: none;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.footerSelection ul li {
+    padding-top: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.footerSelection ul li p{
+    line-height: 20px;
+}
+.footerSelection ul li a {
+    color: #EFECEB;
+}
+.socialIcon{
+    display: flex;
+    gap: 10px;
+    margin-top: -22px;
+}
+
+.copyrightSelection{
+    background-color: #302D2C;
+    color: #FFFFF1;
+    text-align: center;
+    padding: 7px 0 15px;
+    font-size: 18px;
+}
+/* footer Selection end */
